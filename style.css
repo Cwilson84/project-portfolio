@@ -1,5 +1,32 @@
-
+/* contains flexbox-item values */
 :root {
 
 }
 
+.navbar {
+    display: flex;
+    justify-content: flex-end;
+    margin: 0;
+    border: solid 1px;
+    padding-right: 15px;
+
+}
+
+.flexbar {
+    display: flex;
+    width: 250px;
+    justify-content: space-between;
+    padding: 10px;
+    list-style-type: none;
+    background-color: black;
+    align-items: center;
+    background-image: 
+}
+
+.flexbar-1:hover {
+    text-transform: var();
+}
+
+a {
+    color: white;
+}
