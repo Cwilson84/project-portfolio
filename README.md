@@ -20,4 +20,4 @@ This repo is to reflect the work done on this project.
 
 ## Credits
 
-As I mentioned above, this was by far the most bewildering project I have done to date.  The normal heavy lifters, [W3 Schools](https://www.w3schools.com), [MDN Web Docs](https://developer.mozilla.org) and, of course, [Google](https://www.google.com) were invaluable as ever.  New this time to save the day were a great many posts, discussions, and articles available at [Stack-Overflow] (https://www.stackoverflow.com)
+As I mentioned above, this was by far the most bewildering project I have done to date.  The normal heavy lifters, [W3 Schools](https://www.w3schools.com), [MDN Web Docs](https://developer.mozilla.org) and, of course, [Google](https://www.google.com) were invaluable as ever.  New this time to save the day were a great many posts, discussions, and articles available at [Stack-Overflow] (https://www.stackoverflow.com) and a wealth of inspiration from Dev Tooling every site I landed on while searching for anything. 
