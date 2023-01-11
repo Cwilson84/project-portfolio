@@ -2,7 +2,7 @@
 
 ## Module Two Challenge
 
-This goal of this challenge was to create a basic porfolio webpage from scratch.  This was quite honestly the hardest project for me thus far, and yet also the most rewarding.  I don't have an artistic eye, so the idea of creating something from nothing was quite daunting for me.  That said, I'm actually quite proud of how it turned out and I learned a great deal more than I would've ever expected from such a simple task.  I also believe that it meets all requirements listed below:
+The goal of this challenge was to create a basic porfolio webpage from scratch.  This was quite honestly the hardest project for me thus far, and yet also the most rewarding.  I don't have an artistic eye, so the idea of creating something from nothing was quite daunting for me.  That said, I'm actually quite proud of how it turned out and I learned a great deal more than I ever would've expected from such a "simple" task.  I also believe that it meets all requirements listed below:
 
 - Upon page load, presented with a recent picture and links to content sections;
 - All links function as intended and relocate users to their desired content;
