@@ -1,5 +1,6 @@
+![Screenshot of deployed site](/screenshot-1.png?raw=true "Site Screenshot")
+
 # <Project Portfolio>
-  ![Screenshot of deployed site](/screenshot-1.png?raw=true "Site Screenshot")
 
 ## Module Two Challenge
 
