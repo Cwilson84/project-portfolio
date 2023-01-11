@@ -158,12 +158,34 @@ img {
     color: grey;
 }
 
-.project-flex-container {
+.project-flex-container div {
     display: flex;
+    justify-content: center;
+    flex: 1;
+    font-size: 1.2em;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
 }
 
 .project-flex-boxes {
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
+    font-size: 1em;
 }
+
+.project-box-1 {
+    padding-left: 2px; 
+}
+.project-box-2 {
+    padding-left: 2px; 
+}
+
+.project-box-1:hover {
+    box-shadow: 5px 5px 10px grey;
+    flex-grow: 2;
+}
+
+.project-box-2:hover {
+    box-shadow: 5px 5px 10px grey;
+    flex-grow: 2;
+}
+
+
