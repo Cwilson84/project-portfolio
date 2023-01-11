@@ -78,10 +78,17 @@ body {
 
 .img-box {
     display: flex;
+    flex-wrap: nowrap;
     border: 30px solid; 
     flex-direction: row; 
     justify-content: center;
     padding: 1em;
+}
+
+@media (max-width: 600px) {
+    .img-box {
+        flex-wrap: wrap;
+    }
 }
 
 img {
@@ -119,24 +126,25 @@ img {
 }*/
 
 .page-break {
-    width: 140px;
     display: flex;
-    flex-direction: column;
     justify-content: center;
-    align-items: flex-start;
+    align-content: center;
     background-color: black;
     color: white;
-    height: 100%;
+}
+
+.social-bar {
+    flex: 1;
 }
 
 .social-bar ul {
     margin: 0;
     padding: 0;
-    display: flex;
-    flex-direction: column;
+    justify-content: space-between;
     list-style-type: none;
     font-family: fantasy;
     color: white;
+    
 }
 
 .social-bar li {
@@ -160,9 +168,8 @@ img {
 
 .project-flex-container div {
     display: flex;
-    justify-content: center;
+    flex-wrap: wrap;
     flex: 1;
-    font-size: 1.2em;
     font-weight: bold;
     font-family: 'Courier New', Courier, monospace;
 }
@@ -171,11 +178,18 @@ img {
     font-size: 1em;
 }
 
-.project-box-1 {
-    padding-left: 2px; 
+.project-1-text {
+    display: none;
 }
-.project-box-2 {
-    padding-left: 2px; 
+
+.project-2-text {
+    display: none; 
+}
+
+.project-box-2:hover .project-2-text {
+    display: inline-flex;
+    justify-content: flex-end;
+    padding: 1em;
 }
 
 .project-box-1:hover {
@@ -183,9 +197,28 @@ img {
     flex-grow: 2;
 }
 
+.project-box-1:hover .project-1-text {
+    display: inline-flex;
+    justify-content: flex-end;
+    padding: 1em;
+
+}
+
 .project-box-2:hover {
     box-shadow: 5px 5px 10px grey;
     flex-grow: 2;
 }
 
+span {
+    color: grey;
+    text-shadow: 5px 5px 10px grey;
+}
 
+ footer {
+    height: 100px;
+ }
+
+ header {
+    height: 100px;
+    background-color: black;
+ }
