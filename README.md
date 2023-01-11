@@ -1,5 +1,3 @@
-![Screenshot of deployed site](/screenshot-1.png?raw=true "Site Screenshot")
-
 # <Project Portfolio>
 
 ## Module Two Challenge
@@ -16,9 +14,9 @@ This goal of this challenge was to create a basic porfolio webpage from scratch.
 
 N/A
 
-## Usage
+## Screenshot
 
-This repo is to reflect the work done on this project.
+![Screenshot of deployed site](/screenshot-1.png?raw=true "Site Screenshot")
 
 ## Credits
 
