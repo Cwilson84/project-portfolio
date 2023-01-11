@@ -18,7 +18,7 @@ body {
 }
 
 .name-header {
-    font-family: fantasy;
+    font-family: 'Franklin Gothic Medium';
     font-size: 3em;
     font-weight: bold;
     margin: 0.5em;
@@ -49,6 +49,7 @@ body {
     font-size: 1.1em;
     text-shadow: 5px 5px 10px black;
     background-color: whitesmoke;
+    color: grey;
 }
 
 @media (max-width: 822px) {
@@ -73,10 +74,96 @@ body {
      .flexbar li a {
         padding: .5em 1em; 
      }
+}
 
-     /*.flexbar:active {
-        display: flex;
-     */
+.img-box {
+    display: flex;
+    border: 30px solid; 
+    flex-direction: row; 
+    justify-content: center;
+    padding: 1em;
+}
+
+img {
+    box-shadow: 5px 5px 10px grey;
+    max-height: 300px;
+    max-width: 320px;
+}   
+
+.about-face {
+    display: flex;
+    justify-content: flex-start;
+    box-shadow: 5px 5px 10px grey;
+    padding: 1em;
+    background-color: black;
+    margin-left: 2em;
+    color: whitesmoke;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1.5em;
+}
+
+/*
+.psuedo-code {
+    color: blue;
 
 }
 
+.psuedo-class {
+    color: lightskyblue;
+
+}
+
+.psuedo-class-code {
+    color: orange;
+  
+}*/
+
+.page-break {
+    width: 140px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    background-color: black;
+    color: white;
+    height: 100%;
+}
+
+.social-bar ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    list-style-type: none;
+    font-family: fantasy;
+    color: white;
+}
+
+.social-bar li {
+    list-style: none;
+}
+
+.social-bar a {
+    text-decoration: none;
+    color: white;
+    padding: 1em;
+    display: block;
+    margin-left: .5em;
+}
+
+.social-bar a:hover {
+    font-size: 1.1em;
+    text-shadow: 5px 5px 10px black;
+    background-color: whitesmoke;
+    color: grey;
+}
+
+.project-flex-container {
+    display: flex;
+}
+
+.project-flex-boxes {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
