@@ -168,8 +168,6 @@ img {
 
 .project-flex-container div {
     display: flex;
-    flex-wrap: wrap;
-    flex: 1;
     font-weight: bold;
     font-family: 'Courier New', Courier, monospace;
 }
@@ -205,6 +203,36 @@ img {
 }
 
 .project-box-2:hover {
+    box-shadow: 5px 5px 10px grey;
+    flex-grow: 2;
+}
+
+.project-3-text {
+    display: none;
+}
+
+.project-box-3:hover .project-3-text {
+    display: inline-flex;
+    justify-content: flex-end;
+    padding: 1em;
+}
+
+.project-box-3:hover {
+    box-shadow: 5px 5px 10px grey;
+    flex-grow: 2;
+}
+
+.project-4-text {
+    display: none;
+}
+
+.project-box-4:hover .project-4-text {
+    display: inline-flex;
+    justify-content: flex-end;
+    padding: 1em;
+}
+
+.project-box-4:hover {
     box-shadow: 5px 5px 10px grey;
     flex-grow: 2;
 }
